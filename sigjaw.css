@@ -1,0 +1,50 @@
+body {
+	margin: 0px;
+	font-family: nata sans, sans-serif;
+}
+
+#logo {
+	pointer-events: none;
+	width: 250px;
+	padding-top: 200px;
+	margin-left: 825px;
+}
+
+#navbar ul {
+	list-style-type: none;
+	background: rgb(32, 32, 32); 
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	justify-content: space-around;
+}
+
+#navbar ul li {
+	font-size: 55px;
+	font-weight: 500;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#navbar ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+#title {
+	padding-left: 20px;
+}
+
+#contacts {
+	margin-left: 10px;
+
+}
+
+#contacts li a {
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+
+
