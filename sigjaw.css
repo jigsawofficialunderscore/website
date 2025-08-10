@@ -1,0 +1,167 @@
+body {
+	margin: 0px;
+	font-family: nata sans, sans-serif;
+}
+
+#logo {
+	pointer-events: none;
+	width: 350px;
+	display: block;
+	margin: auto;
+	padding-top: 25px;
+	padding-right: 2%;
+}
+
+/* nav bar */
+#navbar ul {
+	width: 100%;
+	list-style-type: none;
+	background: rgb(32, 32, 32); 
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+#navbar ul li {
+	font-size: 55px;
+	font-weight: 500;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#gignavitem {
+	padding-left: 2%;
+}
+
+#navbar ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+/* home page */
+#photo1 {
+	width: 33%;
+	height: auto;
+	margin-top: 3%;
+	display: block;
+	margin-left: 33%;
+}
+
+/* gigs page */
+#gigtitle {
+	margin-left: 20%;
+	display: flex;
+	list-style-type: none;
+	margin-top: 2%;
+	font-weight: 700;
+	font-size: 160%;
+}
+
+#gig2 {
+	padding-left: 40%;
+}
+
+#posters {
+	display: flex;
+	list-style-type: none;
+}
+
+#gigposter {
+	margin-top: 10px;
+	width: 47.5%;
+	height: auto;
+	margin-left: 30%;
+}
+
+#gigposter2 {
+	margin-top: 10px;
+	width: 40%;
+	height: auto;
+	margin-left: 23%;
+
+}
+
+
+/* contact page */
+.title {
+	font-size: 275%;
+	margin: auto;
+	text-align: center;
+	padding-right: 2%;
+	padding-top: 2%;
+}
+
+#contactbox {
+	text-align: center;
+	padding-right: 4%;
+}
+
+#contactbox ul {
+	list-style-type: none;
+
+}
+#contactbox li:not(:last-child) {
+	margin-bottom: 10px;
+}
+#contactbox li a {
+	font-size: 160%;
+	font-weight: 450;
+	color: black;
+	text-decoration: none;
+} 
+
+#title2 {
+	font-size: 275%;
+	margin: auto;
+	text-align: center;
+	padding-right: 2%;
+}
+
+#email {
+	text-align: center;
+	font-size: 140%;
+	font-weight: 450;
+}
+
+
+
+
+/* phone view */
+@media (max-width: 600px) {
+
+	#logo {
+	width: 35%;
+
+	}
+
+	#photo1 {
+	width: 50%;
+	margin-left: 25%;
+}
+
+	#navbar ul li {
+		font-size: 110%;
+	}
+
+	#gignavitem {
+	padding-left: 3%;
+	}
+
+	#contactbox {
+	padding-right: 10%;
+	}
+
+	#gigtitle {
+	display: none;
+	}
+
+	#gigposter {
+		width: 70%;
+	}
+
+	#gigposter2 {
+		width: 58.5%;
+	}
+
+}
