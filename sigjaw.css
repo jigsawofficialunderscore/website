@@ -49,14 +49,14 @@ body {
 	border-width: 5px;
 	border-color: black;
 	margin-top: 0.5%;
-	margin-left: 40.5%;
+	margin-left: 40.2%;
 	padding: none;
 }
 
 #tickets p {
 	text-decoration: none;
 	color: black;
-	margin-left: 42.2%;
+	margin-left: 41.6%;
 	font-weight: bold;
 	font-size: 175%;
 	white-space: nowrap;
@@ -148,17 +148,18 @@ body {
 	#logo {
 	width: 35%;
 	margin-top: -40px;
-	margin-right:35%;
+	text-align: center;
+	margin-left: 32%;
 
 	}
 
 	#photo1 {
 	width: 50%;
-	margin-left: 21.5%;
+	margin-left: 23%;
 }
 
 	#tickets {
-		margin-left: 16%;
+		margin-left: -42%;
 	}
 
 	#navbar ul li {
