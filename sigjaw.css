@@ -8,8 +8,8 @@ body {
 	width: 350px;
 	display: block;
 	margin: auto;
-	padding-top: 25px;
-	padding-right: 2%;
+	padding-top: 75px;
+	margin-right: 41%;
 }
 
 /* nav bar */
@@ -41,16 +41,31 @@ body {
 
 /* home page */
 #photo1 {
-	width: 33%;
+	width: 17.5%;
 	height: auto;
-	margin-top: 3%;
-	display: block;
-	margin-left: 33%;
+	display: inline-block;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 5px;
+	border-color: black;
+	margin-top: 0.5%;
+	margin-left: 40.5%;
+	padding: none;
+}
+
+#tickets p {
+	text-decoration: none;
+	color: black;
+	margin-left: 42.2%;
+	font-weight: bold;
+	font-size: 175%;
+	white-space: nowrap;
+
 }
 
 /* gigs page */
 #gigtitle {
-	margin-left: 20%;
+	margin-left: 22%;
 	display: flex;
 	list-style-type: none;
 	margin-top: 2%;
@@ -59,7 +74,7 @@ body {
 }
 
 #gig2 {
-	padding-left: 40%;
+	padding-left: 43%;
 }
 
 #posters {
@@ -69,16 +84,16 @@ body {
 
 #gigposter {
 	margin-top: 10px;
-	width: 47.5%;
+	width: 37%;
 	height: auto;
 	margin-left: 30%;
 }
 
 #gigposter2 {
 	margin-top: 10px;
-	width: 40%;
+	width: 46.5%;
 	height: auto;
-	margin-left: 23%;
+	margin-left: 13%;
 
 }
 
@@ -132,13 +147,19 @@ body {
 
 	#logo {
 	width: 35%;
+	margin-top: -40px;
+	margin-right:35%;
 
 	}
 
 	#photo1 {
 	width: 50%;
-	margin-left: 25%;
+	margin-left: 21.5%;
 }
+
+	#tickets {
+		margin-left: 16%;
+	}
 
 	#navbar ul li {
 		font-size: 110%;
@@ -157,7 +178,7 @@ body {
 	}
 
 	#gigposter {
-		width: 70%;
+		width: 46.5%;
 	}
 
 	#gigposter2 {
